@@ -1,0 +1,7 @@
+{
+  "name": "Aerabyte",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
