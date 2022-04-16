@@ -1,4 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonButton, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 
@@ -14,6 +14,7 @@ const Home: React.FC = () => {
         <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Blank</IonTitle>
+            <IonButton color='primary'>Login</IonButton>
           </IonToolbar>
         </IonHeader>
         <ExploreContainer />
