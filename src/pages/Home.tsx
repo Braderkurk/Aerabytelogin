@@ -7,17 +7,12 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle>Aerabyte</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-            <IonButton color='primary'>Login</IonButton>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+            <IonButton routerLink="/login" color='primary'>Login</IonButton>
+            <IonButton routerLink="/register" color='secondary'>Register</IonButton>
       </IonContent>
     </IonPage>
   );
